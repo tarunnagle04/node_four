@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" src="/stylesheets/global.css">
+    <link rel="stylesheet" src="/stylesheets/login.css">
+</head>
+<body>
+    <div id="back">
+        <div id="overlay">
+            <div id="right">
+                <h2>Create New Account on <br><span>My App</span></h2>
+                <form action="/register" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="username" name="username" placeholder="Username" required>
+                    <input type="submit" value="Register as an User">
+                    <a href="/login">Already have an account ?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
